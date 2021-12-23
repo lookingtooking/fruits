@@ -1,0 +1,38 @@
+/* list */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.list {
+    padding: 30px 40px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    height: 300px;
+    background-color: #ec9eae;
+}
+
+.block {
+    margin-left: 20px;
+    background-color: #c66377;
+}
+
+.string {
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px;
+}
+
+span {
+    background-color: #9e354b;
+    padding: 10px 20px;
+    position: relative;
+    left: 10px;
+}
